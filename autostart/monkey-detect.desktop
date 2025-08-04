@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Monkey Detect
+Exec=/home/raspi/detect_yolov8.sh
+Terminal=true
