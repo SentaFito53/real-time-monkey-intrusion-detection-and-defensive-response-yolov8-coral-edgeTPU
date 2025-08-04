@@ -47,3 +47,10 @@ Click the image below to watch the demonstration video starting at 1:56:
 - External power supply (recommended for stable operation)
 
 ---
+
+## Setup Edge Device
+https://docs.ultralytics.com/guides/coral-edge-tpu-on-raspberry-pi/#installing-the-edge-tpu-runtime
+
+## Train custom model
+- yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=100 imgsz=240
+- yolo export model=path/to/model.pt format=edgetpu
